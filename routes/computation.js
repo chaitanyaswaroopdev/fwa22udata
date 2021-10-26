@@ -17,12 +17,11 @@ router.get("/", function (req, res, next) {
 
   cbrt = Math.cbrt(rno);
 
-  res.send(`atan2 applied to ${rno}, ${rno1} is ${atan2} <br>
+  res.send(`(atan2) applied to (${rno}, ${rno1}) is ${atan2} <br>
 
-            atanh applied to 0.5 is ${atanh} <br>
+            (atanh) applied to (0.5) is ${atanh} <br>
 
-            cbrt applied to ${rno} is ${cbrt}`);
+            (cbrt) applied to (${rno}) is ${cbrt}`);
 });
 
 module.exports = router;
-
